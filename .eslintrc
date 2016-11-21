@@ -16,7 +16,7 @@
     "no-extra-parens": 2,
     "array-callback-return": 2,
     "complexity": 2,
-    "curly": 2,
+    "curly": ["error", "multi-line"],
     "no-else-return": 2,
     "no-extra-bind": 2,
     "no-global-assign": 2,

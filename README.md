@@ -1,4 +1,4 @@
-# Literate ES Webpack Loader 
+# Literate ES Webpack Loader [![Build Status](https://travis-ci.org/ndp-software/literate-es-webpack-loader.svg?branch=master)](https://travis-ci.org/ndp-software/literate-es-webpack-loader)
 
 Write Markdown files with ES6 blocks in them, and then execute the
 ES6 code.
