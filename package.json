@@ -1,12 +1,11 @@
 {
   "name": "literate-es-loader",
-  "version": "1.0.0",
-  "description": "Literate ES webpack plugin",
-  "main": "./src/literate-es.js",
+  "version": "0.1.0",
+  "description": "Literate ES webpack loader",
+  "main": "./dist/literate-es-webpack-loader.js",
   "scripts": {
-    "xtest": "node_modules/.bin/mocha --compilers js:babel-core/register --colors 'src/**/*.spec.js'",
     "test": "node_modules/.bin/mocha-webpack --webpack-config webpack.config.js \"src/**/*.spec.js\""
-
+    "test:watch": "node_modules/.bin/mocha-webpack --watch --webpack-config webpack.config.js \"src/**/*.spec.js\""
   },
   "author": {
     "name": "Andrew J. Peterson",

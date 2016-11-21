@@ -1,4 +1,4 @@
-# Literate ES Babel Loader 
+# Literate ES Webpack Loader 
 
 Write Markdown files with ES6 blocks in them, and then execute the
 ES6 code.
@@ -6,7 +6,7 @@ ES6 code.
 ## Installation
 
 ```bash
-me $ npm install -D literate-es-loader
+me $ npm install -D literate-es-webpack-loader
 ```
 
 ```js

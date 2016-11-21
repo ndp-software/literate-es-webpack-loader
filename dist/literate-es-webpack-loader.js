@@ -2,11 +2,11 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define("literate-es-loader", [], factory);
+		define("literate-es-webpack-loader", [], factory);
 	else if(typeof exports === 'object')
-		exports["literate-es-loader"] = factory();
+		exports["literate-es-webpack-loader"] = factory();
 	else
-		root["literate-es-loader"] = factory();
+		root["literate-es-webpack-loader"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -3476,4 +3476,4 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ ])
 });
 ;
-//# sourceMappingURL=literate-es.js.map
+//# sourceMappingURL=literate-es-webpack-loader.js.map
