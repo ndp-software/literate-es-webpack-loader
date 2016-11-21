@@ -6,7 +6,7 @@ ES6 code.
 ## Installation
 
 ```bash
-me$ npm install -D literate-es-webpack-loader
+ndp$ npm install -D literate-es-webpack-loader
 ```
 
 And configure webpack:
